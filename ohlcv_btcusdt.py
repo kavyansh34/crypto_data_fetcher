@@ -39,6 +39,6 @@ def fetch_binance_data(symbol="ETHUSDT", interval ='1H' , days=7):
 
     return df
 
-# Fetch 1-year BTC/USDT data (1m timeframe)
+# NNow pass timeframe and days to get data saved in csv file with name "{symbol}_{interva}_days.csv"
 df = fetch_binance_data(symbol="BTCUSDT", interval="1h", days= 365*2)
 print(df.head())
