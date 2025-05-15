@@ -1,0 +1,4 @@
+pandas
+requests
+time 
+# additionally 'fetch_binance_data', you may need it.
